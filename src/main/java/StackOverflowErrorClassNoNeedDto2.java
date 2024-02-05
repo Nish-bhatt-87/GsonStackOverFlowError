@@ -31,6 +31,7 @@ public class StackOverflowErrorClassNoNeedDto2 {
 
         String s = gson.toJson(outerNewTwo);
         System.out.println(s);
+        System.out.println(s);
 
     }
 }

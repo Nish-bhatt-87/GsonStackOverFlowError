@@ -24,10 +24,9 @@ public class StackOverflowErrorClassNoNeedDto {
     }
 }
 
-// this bloody class below is not used, but just put here la no hard
-class OuterSerializer implements JsonDeserializer<Outer> {
-    @Override
-    public Outer deserialize(JsonElement json, java.lang.reflect.Type typeOfT, JsonDeserializationContext context) throws JsonParseException {
-        return context.deserialize(json, Outer.class);
-    }
-}
+//class OuterSerializer implements JsonDeserializer<Outer> {
+//    @Override
+//    public Outer deserialize(JsonElement json, java.lang.reflect.Type typeOfT, JsonDeserializationContext context) throws JsonParseException {
+//        return context.deserialize(json, Outer.class);
+//    }
+//}

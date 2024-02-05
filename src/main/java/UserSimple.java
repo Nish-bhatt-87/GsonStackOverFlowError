@@ -3,9 +3,9 @@ public class UserSimple {
     private String name;
     private String email;
     private int age;
-    private boolean isDeveloper;
+    private Boolean isDeveloper;
 
-    public UserSimple(String name, String email, int age, boolean isDeveloper) {
+    public UserSimple(String name, String email, int age, Boolean isDeveloper) {
         this.name = name;
         this.email = email;
         this.age = age;
